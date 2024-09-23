@@ -1,6 +1,6 @@
 PORT=80  # Change to the port you want to check
-METRICS_FILE="/var/lib/node_exporter/textfile_collector/application_status.prom"
-METRIC_NAME="application_status"
+METRICS_FILE="/var/lib/node_exporter/textfile_collector/logic_application_status.prom"
+METRIC_NAME="logic_application_status"
 
 # Initialize status to 0 (not running or not listening)
 status=0
